@@ -610,4 +610,15 @@ img {
 
   color: #000000;
   background-color: inherit;
+
+  cursor: pointer;
+}
+
+.btn-icon {
+  fill: currentColor;
+}
+
+.modal .btn:hover,
+.modal .btn:focus {
+  color: var(--accent-color);
 }
