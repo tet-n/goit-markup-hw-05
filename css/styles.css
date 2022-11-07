@@ -128,14 +128,17 @@ img {
   position: relative;
 }
 
-.site-nav .link.current::before {
+.site-nav .link.current::after {
+  content: '';
+
   position: absolute;
   left: 0;
   bottom: 0;
-  content: '';
+
   height: 4px;
   width: 100%;
-  background: #2196f3;
+
+  background: currentColor;
   border-radius: 2px;
 }
 
